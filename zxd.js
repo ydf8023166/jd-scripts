@@ -120,7 +120,7 @@ async function GetBody() {
                     obj['data']['encPin']= randomString(27) + '_Z5gj\n'
 
                 }else {
-                    $.msg(`【已成功开团】`, `请在20秒前分享邀请到聊天窗口，20秒后再点链接助力抓取body`);
+                   
                 }
             }
             body = JSON.stringify(obj);
