@@ -141,8 +141,8 @@ async function GetBody() {
             $.log(
                 `[${$.name}] 助力Body✅: 成功, export zjdbody='${zjdBodyVal}'`
             );
-            $.msg($.name, `获取赚京豆助力Body: 成功🎉`, `export zjdbody='${zjdBodyVal}'\n#设置变量`);
-            await sendNotify(`export zjdbody='${zjdBodyVal}'`, `#赚京豆body变量`)
+            $.msg($.name, `获取赚京豆助力Body: 成功🎉`, `export zjdbody="${zjdBodyVal}"\n#设置变量`);
+            await sendNotify(`export zjdbody='${zjdBodyVal}'`, "#赚京豆body变量")
         };
         $done();
     }
