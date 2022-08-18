@@ -376,7 +376,6 @@ function tgBotNotify(text, desp) {
       })
     } else {
       console.log('可提供TG机器人推送变量到监控\nboxjs订阅：https://gitee.com/curtinlv/Curtin/raw/master/Boxjs/curtin.boxjs.json\n');
-      $.msg(`【PKC提示】`, '可提供TG机器人推送变量到指定监控群组\nboxjs订阅：https://gitee.com/curtinlv/Curtin/raw/master/Boxjs/curtin.boxjs.json\n');
       resolve()
     }
   })
